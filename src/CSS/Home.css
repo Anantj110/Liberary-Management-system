@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/960/362/HD-wallpaper-library-background-beautiful-library-book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HomePageHeading{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    margin: 10% auto;
+    font-size: 50px;
+}

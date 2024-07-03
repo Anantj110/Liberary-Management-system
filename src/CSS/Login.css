@@ -1,0 +1,50 @@
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, .9);
+    padding: 1rem;
+    border-radius: var(--borderRadius);
+    box-shadow: 0px 1rem 1rem -0.75rem var(--border);
+    margin: 10% auto;
+    width: 30%;
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
+.LoginHeading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c9bc34;
+}
+
+.LoginEmail{
+        width: 93.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* width: 100%; */
+}
+.LoginPassword{
+        width: 93.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /* width: 100%; */
+}
+.LoginButton{
+    background-color: #454645;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 98%;
+}
+.LoginButton:hover {
+    background-color: #ffea008f;
+    color: black;
+}

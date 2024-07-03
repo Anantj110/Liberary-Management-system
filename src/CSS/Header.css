@@ -1,0 +1,130 @@
+.navStart{
+    display: block; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.75rem; 
+    border-width: 1px; 
+    width: 100%; 
+    max-width: 1280px; 
+    color: #ffffff; 
+    background-color: rgb(250, 250, 250, .6); 
+    --bg-opacity: 0.8; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+}
+
+.HeaderHeading{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.firstDiv{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.xenonLogo{
+    display: block; 
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem; 
+    margin-right: 1rem; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    font-weight: 500; 
+    line-height: 1.625; 
+    cursor: pointer; 
+}
+
+.HeaderOptions{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.HeaderloginButton{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 700; 
+    text-align: center; 
+    color: #111827; 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    transition-property:all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms; 
+    user-select: none; 
+    text-decoration: none;
+}
+
+.HeaderloginButton:hover{
+    background-color: #ffea008f;
+}
+
+.HeaderSignUpButton{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 700; 
+    text-align: center; 
+    color: rgb(250, 250, 250); 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops)); 
+    background-color: #111827; 
+    background-color: #1F2937; 
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms; 
+    user-select: none; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+    text-decoration:none;
+}
+
+.HeaderSignUpButton:hover{
+    background-color: #45a049;
+}
+
+.HeaderLogoutButton{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.5rem; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size: 0.75rem;
+    line-height: 1rem; 
+    font-weight: 700; 
+    text-align: center; 
+    color: rgb(250, 250, 250); 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    background-image: linear-gradient(to top right, var(--tw-gradient-stops)); 
+    background-color: #111827; 
+    background-color: #1F2937; 
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms; 
+    user-select: none; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+    text-decoration:none;
+}
+
+.HeaderLogoutButton:hover{
+    background-color:crimson;
+}

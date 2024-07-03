@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Book</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input[type="number"],
+        input[type="text"],
+        input[type="datetime"] {
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Approve Requests</h1>
+    <form action="/requestApproval", method="post">
+
+        <label for="reqid">Request ID:</label>
+        <input type="number" name="reqid" placeholder="Request ID">
+
+        <label for="approverid">Approver ID:</label>
+        <input type="number" name="approverid" placeholder="Admin ID">
+
+        <label for="request">Request:</label>
+        <input type="text" name="request" placeholder="Request">
+
+        <input type="submit" value="Select">
+    </form>
+</body>
+</html>

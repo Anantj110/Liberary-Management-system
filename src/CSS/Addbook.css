@@ -1,0 +1,83 @@
+.AddbookCard {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin: 50px auto;
+    /* margin-top: 25px; */
+}
+.AddbookForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.AddBookHeading{
+    color: #167ea7;
+}
+
+.AddBookLibId{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBookTitle{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBookAuthor{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBookPublisher{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBookVersion{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBooktotalCopies{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.AddBookAvailableCopies{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+}
+
+.AddBookButton{
+    background-color: #454645;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 102%;
+}
+.AddBookButton:hover {
+    background-color: #167ea7;
+}

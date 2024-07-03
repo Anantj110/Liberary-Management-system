@@ -1,0 +1,78 @@
+.BookSearchContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.BookSearchCard {
+  /* background-color: white; */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.BookSearchform{
+    display: flex;
+    flex-direction: column;
+    margin: -10px auto;
+}
+.BookSearchInput{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: -15px;
+}
+
+.BookSearchHeading{
+  color: #fff6f6;
+}
+
+.BookSearchButton{
+    background-color: #454645;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.BookSearchButton:hover {
+    background-color: #8516a7;
+}
+
+.BookDetailsDiv{
+    display: block;
+}
+
+.BookSearchTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.BookSearchTH{
+  border: 1px solid rgb(133, 22, 167);
+  padding: 8px;
+  text-align: left;
+  background-color: rgb(133, 22, 167);
+}
+
+.BookSearchTD{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+  
+  .BookDetailsDiv {
+    width: 100%;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+
+  

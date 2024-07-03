@@ -1,0 +1,89 @@
+.SignupHeading{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #45a049;
+}
+.card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin: 30px auto;
+}
+.SignUpForm {
+    display: flex;
+    flex-direction: column;
+}
+.SignUpId{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpName{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpEmail{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpContact{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpRole{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpLibId{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpPassword{
+        width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpEmail{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.SignUpButton {
+    background-color: #454645;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 102%;
+    text-decoration: none;
+}
+.SignUpButton:hover {
+    background-color: #45a049;
+}

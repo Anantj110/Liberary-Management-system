@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Book</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input[type="number"],
+        input[type="text"],
+        input[type="datetime"] {
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Issue Book</h1>
+    <form action="/issue-request", method="post">
+        <label for="reqid">Issue ID:</label>
+        <input type="number" name="reqid"  placeholder="Request ID">
+
+        <label for="isbn">ISBN:</label>
+        <input type="number" name="bookid" placeholder="Book ID">
+
+        <label for="readerid">Reader ID:</label>
+        <input type="number" name="readerid" placeholder="Reader ID">
+
+        <label for="requesttype">Request Type:</label>
+        <input type="text" name="requesttype" placeholder="Request Type('Issue'/'Return')">
+
+        <input type="submit" value="Issue">
+    </form>
+</body>
+</html>
